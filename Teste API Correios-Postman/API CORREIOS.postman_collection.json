@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "1853b225-603c-4a24-aebe-e5e279c3aa7e",
+		"name": "API CORREIOS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Buscar CEP Válido",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar sem inserir CEP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar CEP Inexistente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar CEP com formato Inválido",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.postmon.com.br/v1/cep/casa",
+					"protocol": "https",
+					"host": [
+						"api",
+						"postmon",
+						"com",
+						"br"
+					],
+					"path": [
+						"v1",
+						"cep",
+						"casa"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
