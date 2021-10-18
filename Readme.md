@@ -7,9 +7,9 @@ Para este desafio foram solicitadas as seguintes atividades:
 
 - Criar no mínimo 10 Cenários e no máximo 30
 - Utilizar as ferramentas:
-    a) Editor de Texto ou Excel para criação do cenário(Step)
-    b) Cypress + Visual Code
-    c) Jmeter
+    - Editor de Texto ou Excel para criação do cenário(Step)
+    - Cypress + Visual Code
+    - Jmeter
 - Elaborar Relatório de Problemas (Caixa Preta)
 - Submeter o projeto pelo GitHub
 
@@ -33,7 +33,7 @@ testes de outro grupo já executados.
 
 ## Site escolhido
 
-Foi escolhido o site do curso Estratégia: [link] estrategiaconcursos.com.br 
+Foi escolhido o site do curso Estratégia: [EstrategiaConcursos](https://estrategiaconcursos.com.br)
 
 ## Etapas do Projeto
 
@@ -44,7 +44,7 @@ probabilidade, risco e prioridade. Esta priorização encontra-se apresentada no
 
 Com base nestes resultados foram levantados alguns casos de teste para cada funcionalidade considerada mais importante.
 Todas foram identificadas como passíveis de serem automatizadas. 
-Ao todo 4 funcionalidades foram consideradas para o projeto, configurando um total de 21 casos de testes.
+Ao todo 4 funcionalidades foram consideradas para o projeto, configurando um total de 20 casos de testes.
 
 2 - Criação do Caderno de Testes e scrips de Automatização com Page Objects e Hooks
 
@@ -53,10 +53,10 @@ correspondente, devendo elaborar tanto o Caderno de Teste, quanto o script de Au
 
 Os cadernos de testes, bem como as automatizações, foram elaborados com base na jornada do usuário, que foi criada para cada funcionalidade por sua respectiva responsável. Tal jornada foi elaborada em linguagem Gherkin e encontram-se na pasta Cenários, arquivos .feature. Destaca-se que não houve incidentes, portanto não foi elaborado um relatório específico, estando a situação de cada caso de teste indicada no próprio caderno de teste. Inclusive, as evidências do funcionamento dos testes podem ser observadas nos vídeos listados a seguir:
 
-- [testeComprarCurso] https://youtu.be/Ju4xk4puys8
-- [testeBuscar] https://www.youtube.com/watch?v=68yaVFPidSk
-- [testeLogin] https://youtu.be/QC1y4ro_-LY 
-- [testeCadastro] https://www.youtube.com/watch?v=36sPygqzwn0 
+- [testeComprarCurso](https://youtu.be/Ju4xk4puys8)
+- [testeBuscar](https://www.youtube.com/watch?v=68yaVFPidSk)
+- [testeLogin](https://youtu.be/QC1y4ro_-LY)
+- [testeCadastro](https://www.youtube.com/watch?v=36sPygqzwn0)
 
 Os elementos utilizados, bem como as classes criadas para cada funcionalidade, além dos próprios scripts de teste passaram
 por um Code Review, onde todas contribuíram para redução de redundâncias e aprimoramentos.
@@ -79,7 +79,7 @@ Os resultados obtidos e a execução encontram-se nos arquivos da pasta TestePer
 
 Tendo em vista um aproveitamento mais completo de tudo que foi aprendido ao longo dos últimos quase 3 meses, o grupo entendeu ser proveitoso aplicar um teste automatizado de API usando o Cypress. 
 
-Para tanto, foi utilizada a url: [link] https://api.postmon.com.br/v1/cep/
+Para tanto, foi utilizada a url: [APIdocCEP](https://api.postmon.com.br/v1/cep/)
 
 Por meio desta url é possível testar o método HTTP GET e validar se as infomações de endereço resultantes, correspondem com o CEP requisitado.
 
